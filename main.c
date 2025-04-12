@@ -1,7 +1,23 @@
 #include <stdio.h>
 
 
-// This is where you add the two functions
+float celsius_to_fahrenheit (float c){
+
+    float fahrenheit = (c * 9.0 / 5.0) + 32.0;
+
+    return fahrenheit;
+}
+
+
+
+
+float fahrenheit_to_celsius (float f){
+
+    float celsius = ((f - 32) * 5.0) / 9.0;
+
+return celsius;
+
+}
 
 int main() {
     float temp_f = 100.0;
